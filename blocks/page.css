@@ -1,0 +1,8 @@
+.page {
+  min-width: 320px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  background-color: rgb(43, 41, 41);
+}

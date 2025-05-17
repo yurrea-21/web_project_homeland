@@ -1,0 +1,133 @@
+@media only screen and (max-width: 768px) {
+  .header__logo-image {
+    max-width: 17px;
+    max-height: 17px;
+  }
+
+  .header__logo-overtitle {
+    max-width: 120px;
+    max-height: 10px;
+  }
+
+  .header__title {
+    margin: 0;
+    padding-top: 7%;
+    justify-self: center;
+    text-align: center;
+    font-weight: 900;
+    line-height: 100%;
+    font-size: 300%;
+  }
+
+  .header__subheading {
+    text-align: center;
+    line-height: 120%;
+    font-size: 120%;
+    font-weight: 210;
+    max-width: 80%;
+    padding-left: 9%;
+    padding-bottom: 5px;
+  }
+
+  .content__title {
+    width: 800px;
+    max-width: 80%;
+    padding-top: 40px;
+    padding-left: 15px;
+    line-height: 200%;
+    font-size: 140%;
+    font-weight: 400;
+  }
+
+  .content__subheading {
+    width: 800px;
+    max-width: 92%;
+    padding-left: 15px;
+    line-height: 135%;
+    font-size: 150%;
+    font-weight: 200;
+  }
+
+  .content__reference {
+    padding-left: 77%;
+    font-size: 110%;
+    font-weight: 400;
+    padding-bottom: 2%;
+  }
+
+  .content__text {
+    max-width: 91%;
+    font-size: 103%;
+    line-height: 150%;
+    font-weight: 150;
+    padding-left: 15px;
+  }
+
+  .footer__copyright {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 95%;
+    font-weight: 480;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header__logo-image {
+    max-width: 15px;
+    max-height: 15px;
+  }
+
+  .header__logo-overtitle {
+    max-width: 112px;
+    max-height: 5px;
+  }
+  .header__title {
+    justify-self: center;
+    text-align: center;
+    font-weight: 850;
+    font-size: 130%;
+  }
+
+  .header__subheading {
+    text-align: center;
+    line-height: 120%;
+    font-size: 12px;
+    font-weight: 320;
+    padding-left: 10%;
+  }
+
+  .content__title {
+    max-width: 80%;
+    padding-top: 25px;
+    padding-left: 15px;
+    line-height: 200%;
+    font-size: 95%;
+  }
+
+  .content__subheading {
+    max-width: 80%;
+    padding-left: 15px;
+    line-height: 115%;
+    font-size: 22px;
+  }
+
+  .content__reference {
+    padding-left: 50%;
+    font-size: 118%;
+    font-weight: 380;
+    padding-bottom: 2%;
+  }
+
+  .content__text {
+    max-width: 88%;
+    font-size: 100%;
+    line-height: 130%;
+    font-weight: 130;
+    padding-left: 15px;
+  }
+
+  .footer__copyright {
+    font-size: 90%;
+    font-weight: 480;
+  }
+}

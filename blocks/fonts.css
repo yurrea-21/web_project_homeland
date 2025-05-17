@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../vendor/Inter.ttc) format(truetype);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(../vendor/InterDisplay-ExtraBold.ttf) format(truetype);
+  font-weight: normal;
+}
