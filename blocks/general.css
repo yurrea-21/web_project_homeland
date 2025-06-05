@@ -69,6 +69,97 @@
     font-size: 95%;
     font-weight: 480;
   }
+
+  .photo__grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 2%;
+    padding-bottom: 50px;
+  }
+
+  .place__card {
+    margin: 0px 45px 5px 45px;
+    row-gap: 25px;
+  }
+
+  .place__card-title {
+    line-height: 99%;
+    font-size: 240%;
+    font-weight: 600;
+    padding-top: 96px;
+  }
+
+  .place__card-subtitle {
+    line-height: 100%;
+    padding-top: 85px;
+    font-size: 100%;
+  }
+
+  .place__card-artist {
+    font-size: 73%;
+  }
+
+  .place__card-info {
+    margin-top: 2px;
+    font-size: 90%;
+    line-height: 24px;
+  }
+
+  .form__button {
+    font-size: 95%;
+    height: 38px;
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .photo__grid {
+    margin: 15px;
+    padding-bottom: 30px;
+  }
+
+  .place__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding: 8px;
+  }
+
+  .place__card-title {
+    line-height: 90%;
+    font-size: 240%;
+    font-weight: 700;
+  }
+
+  .place__card-subtitle {
+    line-height: 100%;
+    padding-top: 8px;
+    font-size: 100%;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .place__card-info {
+    grid-column: 1;
+    grid-row: 4;
+    margin: 3px;
+    font-size: 84%;
+    line-height: 22px;
+  }
+
+  .place__card-image {
+    width: 100%;
+    max-width: 400px;
+    max-height: 245px;
+  }
+
+  .form__button {
+    font-size: 80%;
+    height: 40px;
+    width: 195px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -129,5 +220,48 @@
   .footer__copyright {
     font-size: 90%;
     font-weight: 480;
+  }
+
+  .photo__grid {
+    justify-content: center;
+    margin: 40px 5px 120px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1%;
+  }
+
+  .place__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 7px;
+  }
+
+  .place__card-title {
+    line-height: 95%;
+    font-size: 235%;
+    font-weight: 800;
+    padding-top: 25px;
+  }
+
+  .place__card-subtitle {
+    line-height: 100%;
+    padding-top: 10px;
+    font-size: 80%;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  .place__card-info {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: 3px;
+    font-size: 75%;
+    line-height: 20px;
+  }
+
+  .form__button {
+    font-size: 68%;
+    height: 34px;
+    width: 174px;
   }
 }
