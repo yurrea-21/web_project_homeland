@@ -3,12 +3,13 @@
 }
 
 .place__card {
+  max-width: 980px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto 1fr;
   row-gap: 30px;
   column-gap: 40px;
-  margin: 55px 10px 0px 50px;
+  margin: 55px auto 10px auto;
 }
 
 .place__card-title {
@@ -56,7 +57,7 @@
 }
 
 .place__button {
-  background-image: linear-gradient(60deg, #0773f0f5, #172d4ee3);
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 6px 7px black;
   color: white;
   font-size: 100%;
@@ -67,8 +68,15 @@
   font-family: "Inter";
   height: 48px;
   width: 240px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 .place__button:hover {
-  background-color: rgba(85, 146, 226, 0.952);
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
