@@ -23,7 +23,7 @@
 }
 
 .place__card-subtitle {
-  line-height: 110%;
+  line-height: 40%;
   padding-top: 120px;
   font-size: 110%;
   font-weight: lighter;
@@ -35,7 +35,7 @@
   font-size: 75%;
   text-transform: uppercase;
   color: rgb(133, 131, 131);
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .place__card-image {
@@ -53,7 +53,6 @@
   font-size: 103%;
   line-height: 28px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  margin-top: 4px;
 }
 
 .place__button {
