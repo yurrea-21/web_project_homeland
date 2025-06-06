@@ -29,7 +29,7 @@
     padding-bottom: 5px;
   }
 
-  .content__title {
+  .intro__title {
     width: 800px;
     max-width: 80%;
     padding-top: 40px;
@@ -39,7 +39,7 @@
     font-weight: 400;
   }
 
-  .content__subheading {
+  .intro__subheading {
     width: 800px;
     max-width: 92%;
     padding-left: 15px;
@@ -48,14 +48,14 @@
     font-weight: 200;
   }
 
-  .content__reference {
+  .intro__reference {
     padding-left: 77%;
     font-size: 110%;
     font-weight: 400;
     padding-bottom: 2%;
   }
 
-  .content__text {
+  .intro__text {
     max-width: 91%;
     font-size: 103%;
     line-height: 150%;
@@ -107,7 +107,7 @@
     line-height: 24px;
   }
 
-  .form__button {
+  .place__button {
     font-size: 95%;
     height: 38px;
     width: 230px;
@@ -155,7 +155,7 @@
     max-height: 245px;
   }
 
-  .form__button {
+  .place__button {
     font-size: 80%;
     height: 40px;
     width: 195px;
@@ -187,7 +187,7 @@
     padding-left: 10%;
   }
 
-  .content__title {
+  .intro__title {
     max-width: 80%;
     padding-top: 25px;
     padding-left: 15px;
@@ -195,21 +195,21 @@
     font-size: 95%;
   }
 
-  .content__subheading {
+  .intro__subheading {
     max-width: 80%;
     padding-left: 15px;
     line-height: 115%;
     font-size: 22px;
   }
 
-  .content__reference {
+  .intro__reference {
     padding-left: 50%;
     font-size: 118%;
     font-weight: 380;
     padding-bottom: 2%;
   }
 
-  .content__text {
+  .intro__text {
     max-width: 88%;
     font-size: 100%;
     line-height: 130%;
@@ -259,7 +259,7 @@
     line-height: 20px;
   }
 
-  .form__button {
+  .place__button {
     font-size: 68%;
     height: 34px;
     width: 174px;
