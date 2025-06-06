@@ -70,7 +70,7 @@
     font-weight: 480;
   }
 
-  .grid__photo {
+  .grid {
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,7 +115,7 @@
 }
 
 @media only screen and (max-width: 545px) {
-  .grid__photo {
+  .grid {
     margin: 15px;
     padding-bottom: 30px;
   }
@@ -222,7 +222,7 @@
     font-weight: 480;
   }
 
-  .grid__photo {
+  .grid {
     justify-content: center;
     margin: 40px 5px 120px 5px;
     display: grid;
